@@ -1,0 +1,31 @@
+öncelikle bağımlılıkları daha iyi yönetebilmek için 
+    pip installa pip-tools 
+kurulumunu gerçekleştir.
+
+
+daha sonra requirements.in dosyası oluşturarak buraya uygulamanda kullanacağın bağımlılıkları yaz. django, pandas vb. şeklinde.
+
+
+pip-compile requirements.in komutunu çalıştır ve dosyaların kurulumunu sağla.
+
+
+en son ise pip-sync komutunu çalıştırarak requirements.in dosyan ile sanal ortamındaki paketlerin senkronizasyonunu sağla.
+
+------------------------------------------------------
+
+django-admin startproject digitalvocabulary
+    komutunu kullanarak bir django projesi başlattık
+
+
+
+settings.py içerisine drf'i dahil ettik.
+
+
+---------------------------------
+--- git komutları
+
+git init --> projemizin git tarafından takip edilmesini sağlayan komut.
+git status --> git sistemi içerisindeki çalışma dizininin ve git staging alanının durumunu gösterir.
+git add . --> bulunduğumuz dizindeki tüm dosyaları staging area'ya eklemeye yarar.
+git commit -m "açıklama" --> promizde yapılan değişikliklere açıklama eklemek için kullanılır.
+git log --> geçmişte yapılan commitler listelenir.
