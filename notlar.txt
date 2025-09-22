@@ -29,3 +29,4 @@ git status --> git sistemi içerisindeki çalışma dizininin ve git staging ala
 git add . --> bulunduğumuz dizindeki tüm dosyaları staging area'ya eklemeye yarar.
 git commit -m "açıklama" --> promizde yapılan değişikliklere açıklama eklemek için kullanılır.
 git log --> geçmişte yapılan commitler listelenir.
+git diff --> En son yaptığımız committen bu yana gerçekleşen değişiklikleri gösterir.
