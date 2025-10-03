@@ -10,12 +10,19 @@ django==5.2.6
     # via
     #   -r requirements.in
     #   djangorestframework
+    #   djangorestframework-simplejwt
 djangorestframework==3.16.1
+    # via
+    #   -r requirements.in
+    #   djangorestframework-simplejwt
+djangorestframework-simplejwt==5.5.1
     # via -r requirements.in
 psycopg[binary]==3.2.10
     # via -r requirements.in
 psycopg-binary==3.2.10
     # via psycopg
+pyjwt==2.10.1
+    # via djangorestframework-simplejwt
 python-dotenv==1.1.1
     # via -r requirements.in
 sqlparse==0.5.3
